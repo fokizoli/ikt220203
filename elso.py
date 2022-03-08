@@ -22,4 +22,13 @@ gomb4=Button(foablak, text='Osszead', command=osszeg)
 gomb4.pack()
 mezo3=Entry(foablak)
 mezo3.pack()
+
+
+can1 = Canvas(foablak, width =460, height =460, bg ='white')
+photo = PhotoImage(file ='giphy.gif')
+#photo = PhotoImage(file ="light-png.png")
+item = can1.create_image(80, 80, image =photo)
+can1.pack()
+
+
 foablak.mainloop()
