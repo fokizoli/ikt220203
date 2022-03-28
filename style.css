@@ -27,10 +27,10 @@ ul {
 ul, a {
     background-color: rgb(61, 55, 55);
     color: aliceblue;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 li {
-    list-style-type :none; 
+    list-style-type :none;
     line-height: 30px;
     border-bottom:  rgb(19, 18, 18) 2px solid;
      
